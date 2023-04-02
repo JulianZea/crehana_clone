@@ -1,0 +1,276 @@
+nav {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#logo img {
+    margin-right: 10px;
+}
+
+#menu {
+    display: flex;
+    flex-grow: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+}
+#logo{
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#menu li {
+    margin: 0 10px;
+}
+#menu li a {
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    #logo {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+}
+
+nav form {
+    display: inline-flex;
+    align-items: center;
+}
+
+nav form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    width: 200px;
+    height: 25px;
+}
+
+
+nav form button {
+    border: none;
+    background-color: #9c73c4;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 12px;
+    border-radius: 3px;
+}
+nav form button i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+/*los botones de iniciar sesion y registrarse*/
+.login-button {
+    background-color: #ffffff;
+    color: #4b22f4;
+    border: 2px solid #4b22f4;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.login-button:hover {
+    opacity: 0.7;
+}
+
+.register-button {
+    background-color: #4b22f4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 50px 0 10px;
+    border-radius: 5px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.register-button:hover {
+    opacity: 0.7;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.auth-cart {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.vertical-line {
+    height: 40px;
+    border-left: 1px solid #ccc;
+    /*margin-right: 10px;*/
+    margin-left: 10px;
+}
+
+.cart-button img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    /*margin-right: 3px;*/
+}
+
+.auth-cart {
+    margin-top: 10px;
+}
+.vertical-line {
+
+}
+#auth-buttons a {
+    text-decoration: none;
+}
+
+
+
+section {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    right: 80%;
+}
+
+.imgminilogo{
+    width: 20px;
+    margin-right: 10px;
+}
+.ulli{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.ulli li a {
+    text-decoration: none;
+}
+
+.lilu{
+    margin-right: 20px;
+    margin-left: 10px;
+}
+ul {
+
+    margin: 0;
+    padding: 0;
+}
+
+.cursos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.filtro {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.lista-con-scroll {
+    height: 200px;
+    overflow-y: scroll;
+}
+
+
+/*foooter*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 250px;
+    width: 40%;
+    height: 200px;
+}
+
+
+.columna {
+    width: 30%;
+  }
+  .boton {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .boton-app-store {
+    background-color: black;
+  }
+  
+  .contenedor-tablas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .columna {
+    width: 30%;
+  }
+  
+  .columna ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .columna li:first-child {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .boton {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.boton-google-play {
+    background-color: black;
+    width: 150px;
+    padding: 15px 16px;
+    font-size: 14px;
+    text-align: center;
+}
+.boton-google-play img {
+    width: 10px;
+    height: 10px;
+    margin-right: 3px; /* Agrega un margen derecho de 5px entre la imagen y el texto */
+}
+.boton-google-play:hover {
+    background-color: #b653c0;
+}
+
+
+
+.boton-app-store {
+    background-color: black;
+    padding: 15px 16px;
+    font-size: 14px;
+    width: 150px;
+    text-align: center;
+}
+
+.boton-app-store img{
+    width: 10px;
+    height: 10px;
+    margin-right: 3px; /* Agrega un margen derecho de 5px entre la imagen y el texto */
+}
+
+.boton-app-store:hover {
+    background-color: #b653c0;
+}
