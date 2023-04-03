@@ -138,29 +138,33 @@ nav form button i {
 section {
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 10%;
-    right: 80%;
+    flex-direction: column;
+    float: left;
 }
 
+.logo-lista {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
 .imgminilogo{
     width: 20px;
     margin-right: 10px;
 }
 .ulli{
-    list-style-type: none;
+    margin-left: 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
+    list-style: none;
 }
+
 .ulli li a {
     text-decoration: none;
 }
 
 .lilu{
     margin-right: 20px;
-    margin-left: 10px;
 }
 ul {
 
@@ -169,20 +173,18 @@ ul {
 }
 
 .cursos {
-    display: flex;
-    flex-direction: column;
-
+    margin-top: 30px;
 }
 
 
 .filtro {
     float: left;
-    width: 200px;
+    width: 30px;
     margin-right: 20px;
 }
 
 .lista-con-scroll {
-    height: 200px;
+    height: 300px;
     overflow-y: scroll;
 }
 
@@ -191,10 +193,16 @@ ul {
 footer {
     position: fixed;
     bottom: 0;
-    left: 250px;
-    width: 40%;
-    height: 200px;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    padding: 20px;
 }
+.contenedor-tablas {
+    width: 100%; /* ocupa el 70% del ancho total de la pantalla */
+    margin: 0 auto; /* centra el contenedor en la pantalla */
+}
+
 
 
 .columna {
@@ -273,4 +281,19 @@ footer {
 
 .boton-app-store:hover {
     background-color: #b653c0;
+}
+
+.my-btn {
+    border: 2px solid #000; /* Define un borde de 2px y color negro */
+    padding: 30px 100px; /* Agrega un espacio interno de 10px arriba/abajo y 20px izquierda/derecha */
+    font-size: 20px; /* Define el tamaño de fuente del botón */
+    background-color: #fff; /* Define el color de fondo del botón */
+}
+
+.mi-div {
+    float: right;
+    position: relative;
+    left: -500px;
+    display: block;
+    margin: 0 auto;
 }
